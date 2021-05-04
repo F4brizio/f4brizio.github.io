@@ -29,6 +29,20 @@ section {
   margin: 0;
   font-weight: normal;
 }
+
+@media (max-width: 767px){
+  .title {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 350px){
+  .title {
+    font-size: 4rem;
+  }
+}
+
+
 .description {
   font-size: 1.2rem;
   margin-top: 0;
