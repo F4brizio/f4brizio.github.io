@@ -1,10 +1,20 @@
+
 .container {
   position: relative;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-family: 'Quicksand', sans-serif;
 }
 .content_text {
@@ -26,11 +36,17 @@ section {
   font-weight: 100;
   text-align: center;
   font-family: 'Segoe UI';
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 2rem;
 }
 .icon {
@@ -48,6 +64,8 @@ section {
 }
 
 .ico_web {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     border-radius: 50%;
     padding: 10px;
