@@ -43,14 +43,13 @@ section {
 
 
 .ico_web > img {
-    width: 30px;
+    width: 35px;
 }
 
 .ico_web {
-    background: #fff;
     display: inline-flex;
     border-radius: 50%;
-    padding: 11px;
+    padding: 10px;
     margin: 10px;
     position: absolute;
 }
