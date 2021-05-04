@@ -40,3 +40,17 @@ section {
   height: 2.4rem;
   fill: white;
 }
+
+
+.ico_web > img {
+    width: 30px;
+}
+
+.ico_web {
+    background: #fff;
+    display: inline-flex;
+    border-radius: 50%;
+    padding: 11px;
+    margin: 10px;
+    position: absolute;
+}
